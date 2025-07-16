@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
 * {
   margin: 0;
   padding: 0;
@@ -8,73 +6,70 @@
 
 body {
   height: 100vh;
-  background: url(images/minecraft.jpg);
-  background-size:cover;
-  font-family: 'Press Start 2P', monospace;
-  color: #2e2e2e;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  font-family: 'Comic Sans MS', cursive, sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  color: #333;
 }
 
 h1 {
-  color: #95e02c;
-  font-size: 1.5rem;
+  font-size: 3rem;
+  text-shadow: 2px 2px 0px #fff;
   margin-bottom: 30px;
-  text-align: center;
-  text-shadow: 2px 2px #b9fbc0;
+  color: #6a0572;
 }
 
 #billAmount,
 #tipAmount {
   display: flex;
+  justify-content: center;
   align-items: center;
   margin: 15px 0;
 }
 
 input, select {
-  padding: 10px;
-  font-size: 0.8rem;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
   margin-left: 10px;
-  background-color: #d7f7be;
-  border: 3px solid #3e5c14;
-  border-radius: 0;
-  font-family: 'Press Start 2P', monospace;
-  width: 200px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  outline: none;
+  background: #fffbe6;
 }
 
 .myButton {
+  padding: 15px 30px;
   margin-top: 20px;
-  padding: 12px 24px;
-  font-size: 0.8rem;
-  background-color: #5b8c26;
-  color: #fff;
-  border: 3px solid #3e5c14;
-  font-family: 'Press Start 2P', monospace;
+  font-size: 1.3rem;
+  background: linear-gradient(45deg, #ff6ec4, #7873f5);
+  color: white;
+  border: none;
+  border-radius: 20px;
   cursor: pointer;
-  transition: all 0.2s ease;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
 }
 .myButton:hover {
-  background-color: #7fc34c;
-  transform: translateY(-2px);
+  transform: scale(1.1);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
 }
 
 #totalAmount {
   margin-top: 30px;
-  padding: 20px;
-  background-color: #f3f3d4;
-  border: 4px solid #3e5c14;
-  box-shadow: 4px 4px #3e5c14;
+  font-size: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
   text-align: center;
-  width: 300px;
-}
-
-#totalAmount p {
-  margin: 10px 0;
-  font-size: 0.8rem;
+  color: #4b0082;
 }
 
 #totalAmount span {
-  color: #3e5c14;
+  font-weight: bold;
+  color: #d000ff;
 }
